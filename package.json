@@ -1,6 +1,7 @@
 {
   "name": "awsProject",
   "version": "1.0.0",
+  "private": true,
   "main": "index.js",
   "author": "Lucas",
   "license": "MIT",
@@ -13,5 +14,14 @@
       "**"
     ]
   },
-  "private": true
+  "scripts": {
+    "dev": "turbo run dev"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "dotenv-cli": "^7.0.0",
+    "eslint-config-custom": "*",
+    "prettier": "latest",
+    "turbo": "latest"
+  }
 }
