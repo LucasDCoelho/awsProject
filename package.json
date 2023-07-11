@@ -1,0 +1,16 @@
+{
+  "name": "awsProject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "frontend",
+      "backend"
+    ],
+    "nohoist": [
+      "**"
+    ]
+  }
+}
